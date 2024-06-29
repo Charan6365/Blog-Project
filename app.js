@@ -6,7 +6,7 @@ const session = require('express-session');
 const methodOverride = require('method-override');
 
 const app = express();
-const PORT = 5000 || Number(process.env.PORT);
+const PORT =  process.env.PORT || 5000;
 
 //Active class which shows which page (home,contact,about) is selected
 const { isActiveRoute} =  require('./server/helper/routeHelper');
