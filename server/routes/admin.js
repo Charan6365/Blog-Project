@@ -7,7 +7,7 @@ const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 //As the default layout is set to layout folder and main file is default considered as main.ejs file but below statement changes the layout to folder admin and default to admin.ejs file
 const adminLayout = "../views/layouts/admin";
-
+const jwtSecret = process.env.JWT_SECRET;
 
 //Logion and Register
 
