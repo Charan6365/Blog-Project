@@ -12,4 +12,4 @@
 
 3.People can view the blogs without any authentication.  
 
-[https://blog-project-rfwh.onrender.com/](#[my-custom-anchor-point](https://blog-project-rfwh.onrender.com/))
+https://blog-project-rfwh.onrender.com/
